@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Interactive Photo Gallery</h1>
+
+  <!-- This div changes when hovering -->
+  <div id="image">
+    Hover over an image below to display here.
+  </div>
+
+  <!-- Thumbnail gallery -->
+  <div class="gallery">
+    <img src="1.jpg" alt="First image" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img src="2.jpg" alt="Second image" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img src="3.jpg" alt="Third image" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img src="4.jpg" alt="Fourth image" onmouseover="upDate(this)" onmouseout="unDo()">
+  </div>
+</body>
+</html>
